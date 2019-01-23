@@ -4,6 +4,7 @@
 
 var i = "q";
 do{
-    n = prompt("Enter a word or enter 'q' to quit.");
+	// KEY: This works, but explicitly declare your variables
+    var n = prompt("Enter a word or enter 'q' to quit.");
 }
 while(i !== n);
